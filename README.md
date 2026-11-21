@@ -11,16 +11,16 @@ is checked as UTF-8 as it arrives. Six modules in namespace `websocket`,
 and two tools, `goose-wscat` and `goose-wsecho`.
 
 ```goose
-import websocket from "SorinS/websocketgoose@v0.7.0";
-import entropy from "SorinS/entropygoose@v0.7.0";   // websocket needs it; the root declares it
-import net from "SorinS/netgoose@v0.7.0";
-import bignum from "SorinS/bigmongoose@v0.7.0";
-import asn1 from "SorinS/asn1goose@v0.7.0";
-import compress from "SorinS/compressgoose@v0.7.0";
-import x509 from "SorinS/x509goose@v0.7.0";
-import tls from "SorinS/tlsgoose@v0.7.0";
-import ntlm from "SorinS/ntlmgoose@v0.7.0";
-import http from "SorinS/httpgoose@v0.7.0";
+import websocket from "SorinS/websocketgoose@v0.9.1";
+import entropy from "SorinS/entropygoose@v0.9.1";   // websocket needs it; the root declares it
+import net from "SorinS/netgoose@v0.9.1";
+import bignum from "SorinS/bigmongoose@v0.9.1";
+import asn1 from "SorinS/asn1goose@v0.9.1";
+import compress from "SorinS/compressgoose@v0.9.1";
+import x509 from "SorinS/x509goose@v0.9.1";
+import tls from "SorinS/tlsgoose@v0.9.1";
+import ntlm from "SorinS/ntlmgoose@v0.9.1";
+import http from "SorinS/httpgoose@v0.9.1";
 import websocket.deflate;
 import websocket.handshake;
 import websocket.conn;
